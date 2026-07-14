@@ -409,27 +409,27 @@ OptiCrop-AI-Crop-Recommendation-System
 
 
 
-**Team ID:** *Your Team ID*
+**Team ID:** *SWTID-2026-7253*
 
 
 
-**Team Leader:** *Your Name*
+**Team Leader:** *Bommidi Deepika*
 
 
 
-**Team Member 1:** *Member Name*
+**Team Member 1:** * G Uday Kumar*
 
 
 
-**Team Member 2:** *Member Name*
+**Team Member 2:** * Kavali Anu*
 
 
 
-**Team Member 3:** *Member Name*
+**Team Member 3:** * Pavan Kumar Sowdepalli*
 
 
 
-**Team Member 4:** *Member Name*
+**Team Member 4:** * Dasarayyagari Sravan Kumar*
 
 
 
