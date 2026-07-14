@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}OptiCrop{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="app-header">
+      <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Primary">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <span class="brand-mark">🌱</span>
+            <span class="brand-name">OptiCrop</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Recommendation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-text">
+              <h1 class="hero-title">Smart crop recommendations for sustainable farming</h1>
+              <p class="hero-subtitle mb-0">
+                Enter soil nutrients and environmental factors — get a crop suggestion optimized for yield and efficiency.
+              </p>
+            </div>
+            <div class="hero-badges d-none d-md-flex">
+              <span class="pill">N · P · K</span>
+              <span class="pill">Soil pH</span>
+              <span class="pill">Temperature</span>
+              <span class="pill">Humidity</span>
+              <span class="pill">Rainfall</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container py-4">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-2">
+          <span>© {{ 2026 }} OptiCrop. ML-based recommendation demo.</span>
+          <span class="muted">Use responsibly — results depend on training data & model accuracy.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
