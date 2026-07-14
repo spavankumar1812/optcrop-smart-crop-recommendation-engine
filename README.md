@@ -417,19 +417,19 @@ OptiCrop-AI-Crop-Recommendation-System
 
 
 
-**Team Member 1:** * G Uday Kumar*
+**Team Member 1:** *G Uday Kumar*
 
 
 
-**Team Member 2:** * Kavali Anu*
+**Team Member 2:** *Kavali Anu*
 
 
 
-**Team Member 3:** * Pavan Kumar Sowdepalli*
+**Team Member 3:** *Pavan Kumar Sowdepalli*
 
 
 
-**Team Member 4:** * Dasarayyagari Sravan Kumar*
+**Team Member 4:** *Dasarayyagari Sravan Kumar*
 
 
 
